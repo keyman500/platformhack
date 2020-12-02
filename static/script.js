@@ -14,7 +14,7 @@ function login(){
     }).done(function(res){
 
       if (res['status'] == 'success'){
-        $("#stat").html('<b>Successful Login<b>');
+        $("#stat").html('<b>Successful Login, you can not view customer data<b>');
       }
       else{
         $("#stat").html('<b>Login Failed</b>');
